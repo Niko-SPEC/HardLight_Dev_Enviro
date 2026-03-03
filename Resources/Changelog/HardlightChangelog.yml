@@ -1523,3 +1523,11 @@ Entries:
         channels.
   id: 162
   time: '2026-03-01T21:57:17.0000000+00:00'
+- author: IrkallaEpsilon
+  changes:
+    - type: Fix
+      message: Gatfruit to Ritland infinite money exploit
+    - type: Fix
+      message: Gatfruit to infinite FUCs to infinite money exploit
+  id: 163
+  time: '2026-03-03T01:45:58.0000000+00:00'
