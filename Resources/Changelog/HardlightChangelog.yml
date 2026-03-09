@@ -1663,3 +1663,11 @@ Entries:
       message: New folder is buyable from Engivends and You-Tools.
   id: 179
   time: '2026-03-09T01:33:27.0000000+00:00'
+- author: VoidedDevNull
+  changes:
+    - type: Add
+      message: Fland overhauled in numerous departments and given numerous QoL fixes
+    - type: Fix
+      message: Fixes Station Captain spawn on Fland
+  id: 180
+  time: '2026-03-09T01:35:09.0000000+00:00'
