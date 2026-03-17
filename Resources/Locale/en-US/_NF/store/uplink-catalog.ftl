@@ -300,11 +300,15 @@ uplink-pirate-pinpointer-target-scanner-desc = A jury-rigged scanner that can fi
 # region Mercvend
 
 store-category-mercenaryhardsuits = EVA Suits
-store-category-mercenaryweapons = Weapons
+store-category-mercenaryarmor = Armor
 store-category-mercenaryutility = Utility
+store-category-mercenarymedical = Medical
+store-category-mercenarysnipers = Snipers
+store-category-mercenaryrifles = Rifles
+store-category-mercenaryshotguns = Shotguns
+store-category-mercenarysmgs = Sub-Machineguns
+store-category-mercenaryhandguns = Handguns
 store-category-mercenaryammo = Ammunition
-store-category-mercenaryexplosives = Explosives
-store-category-mercenarybundles = Bundles
 
 uplink-mercenary-scafhardsuit-name = SCAF Hardsuit
 uplink-mercenary-scafhardsuit-desc = A suit of vacuum-proof armor highly resistant to projectile weaponry.
@@ -315,14 +319,20 @@ uplink-mercenary-hardsuit-desc = A suit of space-proof armored vac suit that pro
 uplink-mercenary-hardsuit1-name = Private Security Hardsuit
 uplink-mercenary-hardsuit1-desc = A suit of space-proof armored vac suit that protects against general damage.
 
-uplink-mercenary-rifle1-name = Surplus Lecter
-uplink-mercenary-rifle1-desc = A tried and true surplus automatic rifle. The benchmark.
+uplink-mining-hardsuit-name = mining hardsuit
+uplink-mining-hardsuit-desc = A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
 
-uplink-mercenary-shotgun1-name = Surplus Kammerer
-uplink-mercenary-shotgun1-desc = Old reliable, rack and shoot. Marked for Surplus.
+uplink-luxurymining-hardsuit-name = luxury mining hardsuit
+uplink-luxurymining-hardsuit-desc = A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
 
-uplink-mercenary-smg1-name = Surplus Drozd
-uplink-mercenary-smg1-desc = Based on an old design, this SMG is still more than capable of putting rounds down-range.
+uplink-backpack-tactical-name = tactical pack
+uplink-backpack-tactical-desc = A tactical pack for your tactical needs.
+
+uplink-backpack-explorer-name = explorer pack
+uplink-backpack-explorer-desc = Large pack for all your gear and supplies.
+
+uplink-backpack-rucksack-name = rucksack
+uplink-backpack-rucksack-desc = Sacks to haul your burdens.
 
 uplink-mercenary-gauze-name = Gauze Roll
 uplink-mercenary-gauze-desc = A full roll of Gauze, for the merc on the go.
@@ -359,6 +369,15 @@ uplink-security-syringe-case-desc = A pocket case filled with medipens for most 
 
 uplink-mercenary-combat-burn-kit-name = Burn Kit
 uplink-mercenary-combat-burn-kit-desc = 4 Ready-made Burn injectors, man burns suck bad.
+
+uplink-mercenary-surpluslecter-name = Surplus Lecter
+uplink-mercenary-surpluslecter-desc = A tried and true surplus automatic rifle. The benchmark.
+
+uplink-mercenary-surpluskrammerer-name = Surplus Kammerer
+uplink-mercenary-surpluskrammerer-desc = Old reliable, rack and shoot. Marked for Surplus.
+
+uplink-mercenary-surplusdrozd-name = Surplus Drozd
+uplink-mercenary-surplusdrozd-desc = Based on an old design, this SMG is still more than capable of putting rounds down-range.
 
 uplink-mercenary-35auto-mags-name = .35 Auto SMG mags
 uplink-mercenary-35auto-mags-desc = A quartet of SMG stick magazines loaded up with lethals, go get 'em tiger
