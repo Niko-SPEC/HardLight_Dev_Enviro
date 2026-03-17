@@ -65,8 +65,8 @@
 
 - type: listing
   id: UplinkMercenaryHardsuitLuxuryMining
-  name: uplink-luxurymining-hardsuit-name
-  description: uplink-luxurymining-hardsuit-desc
+  name: uplink-mercenary-mininghardsuit-name
+  description: uplink-mercenary-mininghardsuit-desc
   productEntity: ClothingOuterHardsuitLuxury
   icon: { sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi, state: icon }
   cost:
@@ -82,8 +82,8 @@
 # Armor
 - type: listing
   id: UplinkMercenaryHardsuitLuxuryMining
-  name: uplink-luxurymining-hardsuit-name
-  description: uplink-luxurymining-hardsuit-desc
+  name: uplink-mercenary-luxmininghardsuit-name
+  description: uplink-mercenary-luxmininghardsuit-desc
   productEntity: ClothingOuterHardsuitLuxury
   icon: { sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi, state: icon }
   cost:
@@ -100,12 +100,12 @@
 # Utility
 - type: listing
   id: UplinkMercenaryUtilityBackpackTactical
-  name: uplink-backpack-tactical-name
-  description: uplink-backpack-tactical-desc
+  name: uplink-mercenary-tactical-name
+  description: uplink-mercenary-tactical-desc
   productEntity: ClothingBackpackTactical
   icon: { sprite: _HL/Clothing/Back/tacticalpack.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 3
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -116,12 +116,12 @@
 
 - type: listing
   id: UplinkMercenaryUtilityBackpackExplorer
-  name: uplink-backpack-explorer-name
-  description: uplink-backpack-explorer-desc
+  name: uplink-mercenary-explorer-name
+  description: uplink-mercenary-explorer-desc
   productEntity: ClothingBackpackExplorer
   icon: { sprite: _HL/Clothing/Back/explorerpack.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 4
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -132,12 +132,204 @@
 
 - type: listing
   id: UplinkMercenaryUtilityRucksack
-  name: uplink-backpack-rucksack-name
-  description: uplink-backpack-rucksack-desc
+  name: uplink-mercenary-rucksack-name
+  description: uplink-mercenary-rucksack-desc
   productEntity: ClothingRucksack
   icon: { sprite: _HL/Clothing/Back/rucksack.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 5
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityChestRig
+  name: uplink-mercenary-webbing-name
+  description: uplink-mercenary-webbing-desc
+  productEntity: ClothingBeltMilitaryWebbing
+  icon: { sprite: Clothing/Belt/militarywebbing.rsi, state: icon }
+  cost:
+    MercCoin: 2
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityMercWebbing
+  name: uplink-mercenary-mercwebbing-name
+  description: uplink-mercenary-mercwebbing-desc
+  productEntity: ClothingBeltMercenaryWebbing
+  icon: { sprite: Clothing/Belt/mercwebbing.rsi, state: icon }
+  cost:
+    MercCoin: 2
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityStunbaton
+  name: uplink-mercenary-stunbaton-name
+  description: uplink-mercenary-stunbaton-desc
+  productEntity: Stunbaton
+  icon: { sprite: Objects/Weapons/Melee/stunbaton.rsi, state: icon }
+  cost:
+    MercCoin: 3
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityBola
+  name: uplink-mercenary-bola-name
+  description: uplink-mercenary-bola-desc
+  productEntity: Bola
+  icon: { sprite: Objects/Weapons/Throwable/bola.rsi, state: icon }
+  cost:
+    MercCoin: 1
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityBoxHandcuff
+  name: uplink-mercenary-boxhandcuff-name
+  description: uplink-mercenary-boxhandcuff-desc
+  productEntity: BoxHandcuff
+  icon: { sprite: /Textures/Objects/Storage/boxicons.rsi, state: handcuff }
+  cost:
+    MercCoin: 1
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilitySeclite
+  name: uplink-mercenary-seclite-name
+  description: uplink-mercenary-seclite-desc
+  productEntity: FlashlightSeclite
+  icon: { sprite: Objects/Tools/seclite.rsi, state: icon }
+  cost:
+    MercCoin: 1
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityPinpointerUniversal
+  name: uplink-mercenary-pinpointuni-name
+  description: uplink-mercenary-pinpointuni-desc
+  productEntity: PinpointerUniversal
+  icon: { sprite: Objects/Devices/pinpointer.rsi, state: icon }
+  cost:
+    MercCoin: 2
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityHudBountyHud
+  name: uplink-mercenary-bountyhud-name
+  description: uplink-mercenary-bountyhud-desc
+  productEntity: ClothingEyesHudBountyHunter
+  icon: { sprite: Clothing/Eyes/Hud/sec.rsi, state: icon }
+  cost:
+    MercCoin: 4
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityDiagnosticHud
+  name: uplink-mercenary-diagnostichud-name
+  description: uplink-mercenary-diagnostichud-desc
+  productEntity: ClothingEyesHudDiagnostic
+  icon: { sprite: Clothing/Eyes/Hud/diag.rsi, state: icon }
+  cost:
+    MercCoin: 4
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityMedicalHud
+  name: uplink-mercenary-medicalhud-name
+  description: uplink-mercenary-medicalhud-desc
+  productEntity: ClothingEyesHudMedical
+  icon: { sprite: Clothing/Eyes/Hud/med.rsi, state: icon }
+  cost:
+    MercCoin: 4
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityEngiGoggles
+  name: uplink-mercenary-engigoggles-name
+  description: uplink-mercenary-engigoggles-desc
+  productEntity: ClothingEyesGlassesMeson
+  icon: { sprite: Clothing/Eyes/Glasses/meson.rsi, state: icon }
+  cost:
+    MercCoin: 2
+  categories:
+    - UplinkMercenaryUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryUtilityChemGoggles
+  name: uplink-mercenary-chemgoggles-name
+  description: uplink-mercenary-chemgoggles -desc
+  productEntity: ClothingEyesGlassesChemical
+  icon: { sprite: Clothing/Eyes/Glasses/science.rsi, state: icon }
+  cost:
+    MercCoin: 2
   categories:
     - UplinkMercenaryUtility
   conditions:

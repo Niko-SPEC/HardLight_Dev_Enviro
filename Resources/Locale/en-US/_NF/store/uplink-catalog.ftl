@@ -319,20 +319,56 @@ uplink-mercenary-hardsuit-desc = A suit of space-proof armored vac suit that pro
 uplink-mercenary-hardsuit1-name = Private Security Hardsuit
 uplink-mercenary-hardsuit1-desc = A suit of space-proof armored vac suit that protects against general damage.
 
-uplink-mining-hardsuit-name = mining hardsuit
-uplink-mining-hardsuit-desc = A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
+uplink-mercenary-mininghardsuit-name = mining hardsuit
+uplink-mercenary-mininghardsuit-desc = A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
 
-uplink-luxurymining-hardsuit-name = luxury mining hardsuit
-uplink-luxurymining-hardsuit-desc = A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
+uplink-mercenary-luxmininghardsuit-name = luxury mining hardsuit
+uplink-mercenary-luxmininghardsuit-desc = A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
 
-uplink-backpack-tactical-name = tactical pack
-uplink-backpack-tactical-desc = A tactical pack for your tactical needs.
+uplink-mercenary-tactical-name = tactical pack
+uplink-mercenary-tactical-desc = A tactical pack for your tactical needs.
 
-uplink-backpack-explorer-name = explorer pack
-uplink-backpack-explorer-desc = Large pack for all your gear and supplies.
+uplink-mercenary-explorer-name = explorer pack
+uplink-mercenary-explorer-desc = Large pack for all your gear and supplies.
 
-uplink-backpack-rucksack-name = rucksack
-uplink-backpack-rucksack-desc = Sacks to haul your burdens.
+uplink-mercenary-rucksack-name = rucksack
+uplink-mercenary-rucksack-desc = Sacks to haul your burdens.
+
+uplink-mercenary-webbing-name = chest rig
+uplink-mercenary-webbing-desc = A set of tactical webbing worn by boarding parties.
+
+uplink-mercenary-mercwebbing-name = mercenary webbing
+uplink-mercenary-mercwebbing-desc = Ideal for storing everything from ammo to weapons and combat essentials.
+
+uplink-mercenary-stunbaton-name = stun baton
+uplink-mercenary-stunbaton-desc = A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+
+uplink-mercenary-bola-name = bola
+uplink-mercenary-bola-desc = Linked together with some spare cuffs and metal.
+
+uplink-mercenary-boxhandcuff-name = handcuff box
+uplink-mercenary-boxhandcuff-desc = A box full of handcuffs.
+
+uplink-mercenary-seclite-name = seclite
+uplink-mercenary-seclite-desc = A robust flashlight used by security.
+
+uplink-mercenary-pinpointuni-name = universal pinpointer
+uplink-mercenary-pinpointuni-desc = A handheld tracking device that locks onto any physical entity while off. Keep upright to retain accuracy.
+
+uplink-mercenary-bountyhud-name = bounty hunter hud
+uplink-mercenary-bountyhud-desc = A heads-up display that scans the humanoids in view and provides accurate data about their ID status, criminal records and health status.
+
+uplink-mercenary-diagnostichud-name = diagnostic hud
+uplink-mercenary-diagnostichud-desc = A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+
+uplink-mercenary-medicalhud-name = medical hud
+uplink-mercenary-medicalhud-desc = A heads-up display that scans the humanoids in view and provides accurate data about their health status.
+
+uplink-mercenary-engigoggles-name = engineering goggles
+uplink-mercenary-engigoggles-desc = Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
+
+uplink-mercenary-chemgoggles-name = chemical analysis goggles
+uplink-mercenary-chemgoggles-desc = Goggles that can scan the chemical composition of a solution.
 
 uplink-mercenary-gauze-name = Gauze Roll
 uplink-mercenary-gauze-desc = A full roll of Gauze, for the merc on the go.
