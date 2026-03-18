@@ -325,6 +325,48 @@ uplink-mercenary-mininghardsuit-desc = A special suit that protects against haza
 uplink-mercenary-luxmininghardsuit-name = luxury mining hardsuit
 uplink-mercenary-luxmininghardsuit-desc = A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
 
+uplink-mercenary-riotshield-name = riot shield
+uplink-mercenary-riotshield-desc = A large tower shield. Good for controlling crowds.
+
+uplink-mercenary-uparmorshield-name =
+uplink-mercenary-uparmorshield-desc =
+
+uplink-mercenary-armorcoat-name = bounty hunter's flak trenchcoat
+uplink-mercenary-armorcoat-desc = A greatcoat enhanced with a bulletproof alloy for some extra protection and style for those with a charismatic presence.
+
+uplink-mercenary-armorriot-name = riot suit
+uplink-mercenary-armorriot-desc = A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+
+uplink-mercenary-webmercblack-name = mercenary web vest
+uplink-mercenary-webmercblack-desc = A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
+
+uplink-mercenary-webmercolive-name = mercenary web vest
+uplink-mercenary-webmercolive-desc = A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
+
+uplink-mercenary-armorbasic-name = armor vest
+uplink-mercenary-armorbasic-desc = A standard Type I armored vest that provides decent protection against most types of damage.
+
+uplink-mercenary-armorhelmetmercblack-name = combat helmet
+uplink-mercenary-armorhelmetmercblack-desc = The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the urban sprawl.
+
+uplink-mercenary-armorhelmetswat-name = SWAT helmet
+uplink-mercenary-armorhelmetswat-desc = An extremely robust helmet, commonly used by paramilitary forces. This one has the Nanotrasen logo emblazoned on the top.
+
+uplink-mercenary-armorbulletproof-name = bulletproof vest
+uplink-mercenary-armorbulletproof-desc = A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
+
+uplink-mercenary-armorhelmetbulletproof-name = bulletproof helmet
+uplink-mercenary-armorhelmetbulletproof-desc = Protects the face against bullets, can flip up and down.
+
+uplink-mercenary-armorstabproof-name = stabproof vest
+uplink-mercenary-armorstabproof-desc = Contrary to it's name, it's just a Type II armored vest that provides good protection against stabs and punches, but not much else.
+
+uplink-mercenary-armorhelmetstabproof-name = stabproof helmet
+uplink-mercenary-armorhelmetstabproof-desc = The most "comfortable" security helmet, as rated by officers. Will take a blow to the head nicely, but a bullet'll go right through it.
+
+uplink-mercenary-armorhelmetriot-name = light riot helmet
+uplink-mercenary-armorhelmetriot-desc = It's a helmet specifically designed to protect against close range attacks.
+
 uplink-mercenary-tactical-name = tactical pack
 uplink-mercenary-tactical-desc = A tactical pack for your tactical needs.
 

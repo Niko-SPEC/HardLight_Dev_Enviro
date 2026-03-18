@@ -31,7 +31,7 @@
   result: Magazine556x45mmUranium
 
 - type: latheRecipe
-  parent: BaseAmmoUraniumIntermediateMagazineRecipe
+  parent: BaseAmmoFMJIntermediateMagazineRecipe
   id: MagazineNovaliteC1
   result: MagazineNovaliteC1
 

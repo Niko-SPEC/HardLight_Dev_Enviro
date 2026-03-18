@@ -81,13 +81,221 @@
 
 # Armor
 - type: listing
-  id: UplinkMercenaryHardsuitLuxuryMining
-  name: uplink-mercenary-luxmininghardsuit-name
-  description: uplink-mercenary-luxmininghardsuit-desc
-  productEntity: ClothingOuterHardsuitLuxury
-  icon: { sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi, state: icon }
+  id: UplinkMercenaryArmorRiotShield
+  name: uplink-mercenary-riotshield-name
+  description: uplink-mercenary-riotshield-desc
+  productEntity: RiotShield
+  icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: riot_icon }
   cost:
-    MercCoin: 30
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+#- type: listing
+#  id: UplinkMercenaryUpArmorRiotShield
+#  name: uplink-mercenary-uparmorshield-name
+#  description: uplink-mercenary-uparmorshield-desc
+#  productEntity: UpArmoredRiotShield
+#  icon: { sprite: _NF/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi, state: icon }
+#  cost:
+#    MercCoin: 0
+#  categories:
+#    - UplinkMercenaryArmor
+#  conditions:
+#    - !type:StoreWhitelistCondition
+#      whitelist:
+#        tags:
+#          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorArmorCoat
+  name: uplink-mercenary-armorcoat-name
+  description: uplink-mercenary-armorcoat-desc
+  productEntity: ClothingOuterCoatBHTrench
+  icon: { sprite: _NF/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorArmorRiot
+  name: uplink-mercenary-armorriot-name
+  description: uplink-mercenary-armorriot-desc
+  productEntity: ClothingOuterArmorRiot
+  icon: { sprite: Clothing/OuterClothing/Armor/riot.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorWebMercBlack
+  name: uplink-mercenary-webmercblack-name
+  description: uplink-mercenary-webmercblack-desc
+  productEntity: ClothingOuterVestWebMercenaryBlack
+  icon: { sprite: _NF/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorWebMercOlive
+  name: uplink-mercenary-webmercolive-name
+  description: uplink-mercenary-webmercolive-desc
+  productEntity: ClothingOuterVestWebMercenary
+  icon: { sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorBasic
+  name: uplink-mercenary-armorbasic-name
+  description: uplink-mercenary-armorbasic-desc
+  productEntity: ClothingOuterArmorBasic
+  icon: { sprite: Clothing/OuterClothing/Armor/security.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorArmorHelmetMercBlack
+  name: uplink-mercenary-armorhelmetmercblack-name
+  description: uplink-mercenary-armorhelmetmercblack-desc
+  productEntity: ClothingHeadHelmetMercenaryBlack
+  icon: { sprite: _NF/Clothing/Head/Helmets/mercenary_black.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorHelmetSwat
+  name: uplink-mercenary-armorhelmetswat-name
+  description: uplink-mercenary-armorhelmetswat-desc
+  productEntity: ClothingHeadHelmetSwat
+  icon: { sprite: Clothing/Head/Helmets/swat.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorBulletproof
+  name: uplink-mercenary-armorbulletproof-name
+  description: uplink-mercenary-armorbulletproof-desc
+  productEntity: ClothingOuterArmorBulletproof
+  icon: { sprite: Clothing/OuterClothing/Armor/bulletproof.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorHelmetBulletproof
+  name: uplink-mercenary-armorhelmetbulletproof-name
+  description: uplink-mercenary-armorhelmetbulletproof-desc
+  productEntity: ClothingHeadHelmetBulletProof
+  icon: { sprite: _Starlight/Clothing/Head/Helmets/bulletproof.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorArmorStabproof
+  name: uplink-mercenary-armorstabproof-name
+  description: uplink-mercenary-armorstabproof-desc
+  productEntity: ClothingOuterArmorStab
+  icon: { sprite: _Starlight/Clothing/OuterClothing/Armor/stabvest.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorHelmetStabproof
+  name: uplink-mercenary-armorhelmetstabproof-name
+  description: uplink-mercenary-armorhelmetstabproof-desc
+  productEntity: ClothingHeadHelmetStabproof
+  icon: { sprite: _Starlight/Clothing/Head/Helmets/stabproof.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryArmorHelmetRiot
+  name: uplink-mercenary-armorhelmetriot-name
+  description: uplink-mercenary-armorhelmetriot-desc
+  productEntity: ClothingHeadHelmetRiot
+  icon: { sprite: Clothing/Head/Helmets/light_riot.rsi, state: icon }
+  cost:
+    MercCoin: 0
   categories:
     - UplinkMercenaryArmor
   conditions:
