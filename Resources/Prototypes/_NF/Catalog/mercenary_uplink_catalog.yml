@@ -22,7 +22,7 @@
   productEntity: ClothingOuterHardsuitMercenary
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi, state: icon }
   cost:
-    MercCoin: 8
+    MercCoin: 15
   categories:
     - UplinkMercenaryHardsuits
   conditions:
@@ -38,7 +38,7 @@
   productEntity: ClothingOuterHardsuitPrivateSecurity
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/private_security.rsi, state: icon }
   cost:
-    MercCoin: 8
+    MercCoin: 15
   categories:
     - UplinkMercenaryHardsuits
   conditions:
@@ -54,7 +54,7 @@
   productEntity: ClothingOuterHardsuitScaf
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi, state: icon }
   cost:
-    MercCoin: 25
+    MercCoin: 35
   categories:
     - UplinkMercenaryHardsuits
   conditions:
@@ -70,7 +70,7 @@
   productEntity: ClothingOuterHardsuitLuxury
   icon: { sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi, state: icon }
   cost:
-    MercCoin: 30
+    MercCoin: 50
   categories:
     - UplinkMercenaryHardsuits
   conditions:
@@ -87,7 +87,7 @@
   productEntity: RiotShield
   icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: riot-icon }
   cost:
-    MercCoin: 10
+    MercCoin: 12
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -119,7 +119,7 @@
   productEntity: ClothingOuterCoatBHTrench
   icon: { sprite: _NF/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi, state: icon }
   cost:
-    MercCoin: 8
+    MercCoin: 15
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -135,7 +135,7 @@
   productEntity: ClothingOuterArmorRiot
   icon: { sprite: Clothing/OuterClothing/Armor/riot.rsi, state: icon }
   cost:
-    MercCoin: 7
+    MercCoin: 9
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -151,7 +151,7 @@
   productEntity: ClothingOuterVestWebMercenaryBlack
   icon: { sprite: _NF/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi, state: icon }
   cost:
-    MercCoin: 4
+    MercCoin: 6
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -167,7 +167,7 @@
   productEntity: ClothingOuterVestWebMercenary
   icon: { sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi, state: icon }
   cost:
-    MercCoin: 4
+    MercCoin: 6
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -183,7 +183,7 @@
   productEntity: ClothingOuterArmorBasic
   icon: { sprite: Clothing/OuterClothing/Armor/security.rsi, state: icon }
   cost:
-    MercCoin: 5
+    MercCoin: 8
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -215,7 +215,7 @@
   productEntity: ClothingHeadHelmetSwat
   icon: { sprite: Clothing/Head/Helmets/swat.rsi, state: icon }
   cost:
-    MercCoin: 10
+    MercCoin: 15
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -231,7 +231,7 @@
   productEntity: ClothingOuterArmorBulletproof
   icon: { sprite: Clothing/OuterClothing/Armor/bulletproof.rsi, state: icon }
   cost:
-    MercCoin: 8
+    MercCoin: 10
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -247,7 +247,7 @@
   productEntity: ClothingHeadHelmetBulletProof
   icon: { sprite: _Starlight/Clothing/Head/Helmets/bulletproof.rsi, state: icon }
   cost:
-    MercCoin: 5
+    MercCoin: 7
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -263,7 +263,7 @@
   productEntity: ClothingOuterArmorStab
   icon: { sprite: _Starlight/Clothing/OuterClothing/Armor/stabvest.rsi, state: icon }
   cost:
-    MercCoin: 5
+    MercCoin: 8
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -279,7 +279,7 @@
   productEntity: ClothingHeadHelmetStabproof
   icon: { sprite: _Starlight/Clothing/Head/Helmets/stabproof.rsi, state: icon }
   cost:
-    MercCoin: 3
+    MercCoin: 5
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -295,7 +295,7 @@
   productEntity: ClothingHeadHelmetRiot
   icon: { sprite: Clothing/Head/Helmets/light_riot.rsi, state: icon }
   cost:
-    MercCoin: 5
+    MercCoin: 8
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -313,7 +313,7 @@
   productEntity: ClothingBackpackTactical
   icon: { sprite: _HL/Clothing/Back/tacticalpack.rsi, state: icon }
   cost:
-    MercCoin: 3
+    MercCoin: 5
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -329,7 +329,7 @@
   productEntity: ClothingBackpackExplorer
   icon: { sprite: _HL/Clothing/Back/explorerpack.rsi, state: icon }
   cost:
-    MercCoin: 4
+    MercCoin: 7
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -345,7 +345,7 @@
   productEntity: ClothingRucksack
   icon: { sprite: _HL/Clothing/Back/rucksack.rsi, state: icon }
   cost:
-    MercCoin: 5
+    MercCoin: 9
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -361,7 +361,7 @@
   productEntity: ClothingBeltMilitaryWebbing
   icon: { sprite: Clothing/Belt/militarywebbing.rsi, state: icon }
   cost:
-    MercCoin: 2
+    MercCoin: 4
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -377,7 +377,7 @@
   productEntity: ClothingBeltMercenaryWebbing
   icon: { sprite: Clothing/Belt/mercwebbing.rsi, state: icon }
   cost:
-    MercCoin: 2
+    MercCoin: 4
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -393,7 +393,7 @@
   productEntity: Stunbaton
   icon: { sprite: Objects/Weapons/Melee/stunbaton.rsi, state: stunbaton_off }
   cost:
-    MercCoin: 3
+    MercCoin: 5
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -441,7 +441,7 @@
   productEntity: FlashlightSeclite
   icon: { sprite: Objects/Tools/seclite.rsi, state: seclite }
   cost:
-    MercCoin: 1
+    MercCoin: 3
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -457,7 +457,7 @@
   productEntity: PinpointerUniversal
   icon: { sprite: Objects/Devices/pinpointer.rsi, state: pinpointer-crew }
   cost:
-    MercCoin: 2
+    MercCoin: 5
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -473,7 +473,7 @@
   productEntity: ClothingEyesHudBountyHunter
   icon: { sprite: Clothing/Eyes/Hud/sec.rsi, state: icon }
   cost:
-    MercCoin: 4
+    MercCoin: 10
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -489,7 +489,7 @@
   productEntity: ClothingEyesHudDiagnostic
   icon: { sprite: Clothing/Eyes/Hud/diag.rsi, state: icon }
   cost:
-    MercCoin: 4
+    MercCoin: 10
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -505,7 +505,7 @@
   productEntity: ClothingEyesHudMedical
   icon: { sprite: Clothing/Eyes/Hud/med.rsi, state: icon }
   cost:
-    MercCoin: 4
+    MercCoin: 10
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -521,7 +521,7 @@
   productEntity: ClothingEyesGlassesMeson
   icon: { sprite: Clothing/Eyes/Glasses/meson.rsi, state: icon }
   cost:
-    MercCoin: 2
+    MercCoin: 5
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -537,7 +537,7 @@
   productEntity: ClothingEyesGlassesChemical
   icon: { sprite: Clothing/Eyes/Glasses/science.rsi, state: icon }
   cost:
-    MercCoin: 2
+    MercCoin: 5
   categories:
     - UplinkMercenaryUtility
   conditions:
@@ -717,7 +717,7 @@
   productEntity: WeaponRifleSurpLecter
   icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/surplecter.rsi, state: icon }
   cost:
-    MercCoin: 8
+    MercCoin: 15
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -733,7 +733,7 @@
   productEntity: WeaponSniperRepeater
   icon: { sprite: _NF/Objects/Weapons/Guns/Snipers/repeater.rsi, state: base }
   cost:
-    MercCoin: 0
+    MercCoin: 14
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -749,7 +749,7 @@
   productEntity: WeaponRifleGestio
   icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 18
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -765,7 +765,7 @@
   productEntity: WeaponRifleVulcanCFCM
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/WeaponRifleVulcanCFCM.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 22
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -781,7 +781,7 @@
   productEntity: WeaponLaserCannonPMC
   icon: { sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 25
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -797,7 +797,7 @@
   productEntity: NFWeaponEnergyRifleCannon
   icon: { sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 25
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -813,7 +813,7 @@
   productEntity: NFWeaponEnergyRifleCarbineExpedition
   icon: { sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 22
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -829,7 +829,7 @@
   productEntity: WeaponTemperatureGun
   icon: { sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 40
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -845,7 +845,7 @@
   productEntity: WeaponRifleMR8C
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 40
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -861,7 +861,7 @@
   productEntity: WeaponRifleVulcan
   icon: { sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 36
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -877,7 +877,7 @@
   productEntity: WeaponSniperCeremonial
   icon: { sprite: _DV/Objects/Weapons/Guns/Rifles/ceremonial_grand.rsi, state: base }
   cost:
-    MercCoin: 0
+    MercCoin: 24
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -893,7 +893,7 @@
   productEntity: WeaponSniperMosin
   icon: { sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi, state: base }
   cost:
-    MercCoin: 0
+    MercCoin: 16
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -909,7 +909,7 @@
   productEntity: WeaponRifleAk
   icon: { sprite: Objects/Weapons/Guns/Rifles/ak.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 28
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -925,7 +925,7 @@
   productEntity: NFWeaponRifleAssaultSm
   icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/solandmoss.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 28
   categories:
     - UplinkMercenaryRifles
   conditions:
@@ -942,7 +942,7 @@
   productEntity: WeaponShotgunSurpKammerer
   icon: { sprite: _NF/Objects/Weapons/Guns/Shotguns/surppump.rsi, state: icon }
   cost:
-    MercCoin: 5
+    MercCoin: 12
   categories:
     - UplinkMercenaryShotguns
   conditions:
@@ -958,7 +958,7 @@
   productEntity: WeaponShotgunEnforcer
   icon: { sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 16
   categories:
     - UplinkMercenaryShotguns
   conditions:
@@ -974,7 +974,7 @@
   productEntity: WeaponShotgunVortex
   icon: { sprite: _HL/Objects/Weapons/Guns/Shotguns/vortex.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 22
   categories:
     - UplinkMercenaryShotguns
   conditions:
@@ -990,7 +990,7 @@
   productEntity: WeaponShotgunBigJohnny
   icon: { sprite: _Mono/Objects/Weapons/Guns/Shotguns/BigJohnny.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 40
   categories:
     - UplinkMercenaryShotguns
   conditions:
@@ -1007,7 +1007,7 @@
   productEntity: WeaponSubMachineGunSurpDrozd
   icon: { sprite: _NF/Objects/Weapons/Guns/SMGs/surpdrozd.rsi, state: icon }
   cost:
-    MercCoin: 6
+    MercCoin: 10
   categories:
     - UplinkMercenarySMGs
   conditions:
@@ -1023,7 +1023,7 @@
   productEntity: WeaponSubMachineGunC20rPMC
   icon: { sprite: Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 32
   categories:
     - UplinkMercenarySMGs
   conditions:
@@ -1039,7 +1039,7 @@
   productEntity: WeaponDisablerSMGPMC
   icon: { sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi, state: base }
   cost:
-    MercCoin: 0
+    MercCoin: 8
   categories:
     - UplinkMercenarySMGs
   conditions:
@@ -1055,7 +1055,7 @@
   productEntity: WeaponRifleNovaliteC1
   icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 11
   categories:
     - UplinkMercenarySMGs
   conditions:
@@ -1071,7 +1071,7 @@
   productEntity: WeaponSubMachineGunWt550
   icon: { sprite: Objects/Weapons/Guns/SMGs/wt550.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 14
   categories:
     - UplinkMercenarySMGs
   conditions:
@@ -1087,7 +1087,7 @@
   productEntity: WeaponPistolWT440446x30mm
   icon: { sprite: _HL/Objects/Weapons/Guns/Pistols/wt440.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 20
   categories:
     - UplinkMercenarySMGs
   conditions:
@@ -1103,7 +1103,7 @@
   productEntity: WeaponSubMachineGunTypewriter
   icon: { sprite: _DV/Objects/Weapons/Guns/SMGs/typewriter.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 17
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1120,7 +1120,7 @@
   productEntity: Ritland45Mercenary
   icon: { sprite: Objects/Weapons/Guns/Revolvers/python.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 28
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1136,7 +1136,7 @@
   productEntity: Ward45Mercenary
   icon: { sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 28
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1152,7 +1152,7 @@
   productEntity: WeaponPistolViperPMC
   icon: { sprite: Objects/Weapons/Guns/Pistols/viper.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 18
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1168,7 +1168,7 @@
   productEntity: WeaponPistolMk58
   icon: { sprite: Objects/Weapons/Guns/Pistols/mk58.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 10
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1184,7 +1184,7 @@
   productEntity: WeaponRevolverDeckard
   icon: { sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi, state: base }
   cost:
-    MercCoin: 0
+    MercCoin: 28
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1200,7 +1200,7 @@
   productEntity: NFWeaponEnergyPistolLaser
   icon: { sprite: _NF/Objects/Weapons/Guns/Battery/laser_pistol.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 10
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1216,7 +1216,7 @@
   productEntity: WeaponLaserSvalinn
   icon: { sprite: Objects/Weapons/Guns/Battery/svalinn.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 8
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1232,7 +1232,7 @@
   productEntity: NFWeaponEnergyPistolLaserAdvanced
   icon: { sprite: _NF/Objects/Weapons/Guns/Battery/advancedlasergun.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 15
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1248,7 +1248,7 @@
   productEntity: WeaponPistolPollock
   icon: { sprite: _DV/Objects/Weapons/Guns/Pistols/pollock.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 18
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1264,7 +1264,7 @@
   productEntity: WeaponPistolMk32
   icon: { sprite: Objects/Weapons/Guns/Pistols/mk32.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 12
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1280,7 +1280,7 @@
   productEntity: WeaponPistolN1984
   icon: { sprite: Objects/Weapons/Guns/Pistols/N1984.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 35
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1296,7 +1296,7 @@
   productEntity: WeaponRevolverFitz
   icon: { sprite: _DV/Objects/Weapons/Guns/Revolvers/fitz.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 18
   categories:
     - UplinkMercenaryHandguns
   conditions:
@@ -1312,7 +1312,7 @@
   productEntity: WeaponRevolverFaith
   icon: { sprite: _DV/Objects/Weapons/Guns/Revolvers/faith.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 18
   categories:
     - UplinkMercenaryHandguns
   conditions:
