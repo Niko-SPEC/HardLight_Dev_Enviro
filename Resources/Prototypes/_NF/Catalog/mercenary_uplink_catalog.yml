@@ -1,8 +1,8 @@
 # EVA Suits
 - type: listing
   id: UplinkMercenaryHardsuitMining
-  name:  uplink-mining-hardsuit-name
-  description: uplink-mining-hardsuit-desc
+  name:  uplink-mercenary-mininghardsuit-name
+  description: uplink-mercenary-mininghardsuit-desc
   productEntity: ClothingOuterHardsuitSalvage
   icon: { sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi, state: icon }
   cost:
@@ -65,8 +65,8 @@
 
 - type: listing
   id: UplinkMercenaryHardsuitLuxuryMining
-  name: uplink-mercenary-mininghardsuit-name
-  description: uplink-mercenary-mininghardsuit-desc
+  name: uplink-mercenary-luxmininghardsuit-name
+  description: uplink-mercenary-luxmininghardsuit-desc
   productEntity: ClothingOuterHardsuitLuxury
   icon: { sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi, state: icon }
   cost:
@@ -85,9 +85,9 @@
   name: uplink-mercenary-riotshield-name
   description: uplink-mercenary-riotshield-desc
   productEntity: RiotShield
-  icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: riot_icon }
+  icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: riot-icon }
   cost:
-    MercCoin: 0
+    MercCoin: 10
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -119,7 +119,7 @@
   productEntity: ClothingOuterCoatBHTrench
   icon: { sprite: _NF/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 8
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -135,7 +135,7 @@
   productEntity: ClothingOuterArmorRiot
   icon: { sprite: Clothing/OuterClothing/Armor/riot.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 7
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -151,7 +151,7 @@
   productEntity: ClothingOuterVestWebMercenaryBlack
   icon: { sprite: _NF/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 4
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -167,7 +167,7 @@
   productEntity: ClothingOuterVestWebMercenary
   icon: { sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 4
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -183,7 +183,7 @@
   productEntity: ClothingOuterArmorBasic
   icon: { sprite: Clothing/OuterClothing/Armor/security.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 5
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -199,7 +199,7 @@
   productEntity: ClothingHeadHelmetMercenaryBlack
   icon: { sprite: _NF/Clothing/Head/Helmets/mercenary_black.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 4
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -215,7 +215,7 @@
   productEntity: ClothingHeadHelmetSwat
   icon: { sprite: Clothing/Head/Helmets/swat.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 10
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -231,7 +231,7 @@
   productEntity: ClothingOuterArmorBulletproof
   icon: { sprite: Clothing/OuterClothing/Armor/bulletproof.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 8
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -247,7 +247,7 @@
   productEntity: ClothingHeadHelmetBulletProof
   icon: { sprite: _Starlight/Clothing/Head/Helmets/bulletproof.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 5
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -263,7 +263,7 @@
   productEntity: ClothingOuterArmorStab
   icon: { sprite: _Starlight/Clothing/OuterClothing/Armor/stabvest.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 5
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -279,7 +279,7 @@
   productEntity: ClothingHeadHelmetStabproof
   icon: { sprite: _Starlight/Clothing/Head/Helmets/stabproof.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 3
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -295,7 +295,7 @@
   productEntity: ClothingHeadHelmetRiot
   icon: { sprite: Clothing/Head/Helmets/light_riot.rsi, state: icon }
   cost:
-    MercCoin: 0
+    MercCoin: 5
   categories:
     - UplinkMercenaryArmor
   conditions:
@@ -391,7 +391,7 @@
   name: uplink-mercenary-stunbaton-name
   description: uplink-mercenary-stunbaton-desc
   productEntity: Stunbaton
-  icon: { sprite: Objects/Weapons/Melee/stunbaton.rsi, state: icon }
+  icon: { sprite: Objects/Weapons/Melee/stunbaton.rsi, state: stunbaton_off }
   cost:
     MercCoin: 3
   categories:
@@ -439,7 +439,7 @@
   name: uplink-mercenary-seclite-name
   description: uplink-mercenary-seclite-desc
   productEntity: FlashlightSeclite
-  icon: { sprite: Objects/Tools/seclite.rsi, state: icon }
+  icon: { sprite: Objects/Tools/seclite.rsi, state: seclite }
   cost:
     MercCoin: 1
   categories:
@@ -455,7 +455,7 @@
   name: uplink-mercenary-pinpointuni-name
   description: uplink-mercenary-pinpointuni-desc
   productEntity: PinpointerUniversal
-  icon: { sprite: Objects/Devices/pinpointer.rsi, state: icon }
+  icon: { sprite: Objects/Devices/pinpointer.rsi, state: pinpointer-crew }
   cost:
     MercCoin: 2
   categories:
@@ -533,7 +533,7 @@
 - type: listing
   id: UplinkMercenaryUtilityChemGoggles
   name: uplink-mercenary-chemgoggles-name
-  description: uplink-mercenary-chemgoggles -desc
+  description: uplink-mercenary-chemgoggles-desc
   productEntity: ClothingEyesGlassesChemical
   icon: { sprite: Clothing/Eyes/Glasses/science.rsi, state: icon }
   cost:
@@ -726,6 +726,214 @@
         tags:
           - MercenaryUplink
 
+- type: listing
+  id: UplinkMercenaryWeaponRepeaterRifle
+  name:  uplink-mercenary-repeaterrifle-name
+  description: uplink-mercenary-repeaterrifle-desc
+  productEntity: WeaponSniperRepeater
+  icon: { sprite: _NF/Objects/Weapons/Guns/Snipers/repeater.rsi, state: base }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponGestioRifle
+  name:  uplink-mercenary-gestiorifle-name
+  description: uplink-mercenary-gestiorifle-desc
+  productEntity: WeaponRifleGestio
+  icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponVylcanCFCM
+  name:  uplink-mercenary-vulcancfcm-name
+  description: uplink-mercenary-vulcancfcm-desc
+  productEntity: WeaponRifleVulcanCFCM
+  icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/WeaponRifleVulcanCFCM.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponLaserCannonPMC
+  name:  uplink-mercenary-lasercannonpmc-name
+  description: uplink-mercenary-lasercannonpmc-desc
+  productEntity: WeaponLaserCannonPMC
+  icon: { sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponLaserCannon
+  name:  uplink-mercenary-lasercannon-name
+  description: uplink-mercenary-lasercannon-desc
+  productEntity: NFWeaponEnergyRifleCannon
+  icon: { sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponEnergyRifleButBetter
+  name:  uplink-mercenary-energyriflebutbetter-name
+  description: uplink-mercenary-energyriflebutbetter-desc
+  productEntity: NFWeaponEnergyRifleCarbineExpedition
+  icon: { sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponTempatureGun
+  name:  uplink-mercenary-tempaturegun-name
+  description: uplink-mercenary-tempaturegun-desc
+  productEntity: WeaponTemperatureGun
+  icon: { sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponMR8CRifle
+  name:  uplink-mercenary-mr8crifle-name
+  description: uplink-mercenary-mr8crifle-desc
+  productEntity: WeaponRifleMR8C
+  icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponVulcanRifle
+  name:  uplink-mercenary-vulcanrifle-name
+  description: uplink-mercenary-vulcanrifle-desc
+  productEntity: WeaponRifleVulcan
+  icon: { sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponCeremonialRifle
+  name:  uplink-mercenary-ceremonialrifle-name
+  description: uplink-mercenary-ceremonialrifle-desc
+  productEntity: WeaponSniperCeremonial
+  icon: { sprite: _DV/Objects/Weapons/Guns/Rifles/ceremonial_grand.rsi, state: base }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponMosinRifle
+  name:  uplink-mercenary-mosinrifle-name
+  description: uplink-mercenary-mosinrifle-desc
+  productEntity: WeaponSniperMosin
+  icon: { sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi, state: base }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponAKRifle
+  name:  uplink-mercenary-akrifle-name
+  description: uplink-mercenary-akrifle-desc
+  productEntity: WeaponRifleAk
+  icon: { sprite: Objects/Weapons/Guns/Rifles/ak.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponAssultAKRifle
+  name:  uplink-mercenary-assultakrifle-name
+  description: uplink-mercenary-assultakrifle-desc
+  productEntity: NFWeaponRifleAssaultSm
+  icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/solandmoss.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryRifles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
 # Shotguns
 - type: listing
   id: UplinkMercenarySurpKammerer
@@ -735,6 +943,54 @@
   icon: { sprite: _NF/Objects/Weapons/Guns/Shotguns/surppump.rsi, state: icon }
   cost:
     MercCoin: 5
+  categories:
+    - UplinkMercenaryShotguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryEnforcerShotty
+  name:  uplink-mercenary-enforcershotty-name
+  description: uplink-mercenary-enforcershotty-desc
+  productEntity: WeaponShotgunEnforcer
+  icon: { sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryShotguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryVortex12Shotty
+  name:  uplink-mercenary-vortex12shotty-name
+  description: uplink-mercenary-vortex12shotty-desc
+  productEntity: WeaponShotgunVortex
+  icon: { sprite: _HL/Objects/Weapons/Guns/Shotguns/vortex.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryShotguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryBigJohnnyShotty
+  name:  uplink-mercenary-bigjohnnyshotty-name
+  description: uplink-mercenary-bigjohnnyshotty-desc
+  productEntity: WeaponShotgunBigJohnny
+  icon: { sprite: _Mono/Objects/Weapons/Guns/Shotguns/BigJohnny.rsi, state: icon }
+  cost:
+    MercCoin: 0
   categories:
     - UplinkMercenaryShotguns
   conditions:
@@ -760,14 +1016,303 @@
         tags:
           - MercenaryUplink
 
-# Handguns
-  id: UplinkMercenarySurpDrozd
-  name:  uplink-mercenary-surplusdrozd-name
-  description: uplink-mercenary-surplusdrozd-desc
-  productEntity: WeaponSubMachineGunSurpDrozd
-  icon: { sprite: _NF/Objects/Weapons/Guns/SMGs/surpdrozd.rsi, state: icon }
+- type: listing
+  id: UplinkMercenaryC20rPMC
+  name:  uplink-mercenary-c20rpmc-name
+  description: uplink-mercenary-c20rpmc-desc
+  productEntity: WeaponSubMachineGunC20rPMC
+  icon: { sprite: Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
   cost:
-    MercCoin: 6
+    MercCoin: 0
+  categories:
+    - UplinkMercenarySMGs
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryDisablerSMGPMC
+  name:  uplink-mercenary-disablersmgpmc-name
+  description: uplink-mercenary-disablersmgpmc-desc
+  productEntity: WeaponDisablerSMGPMC
+  icon: { sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi, state: base }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenarySMGs
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryNovaliteC1
+  name:  uplink-mercenary-novalitec1-name
+  description: uplink-mercenary-novalitec1-desc
+  productEntity: WeaponRifleNovaliteC1
+  icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenarySMGs
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWt550
+  name:  uplink-mercenary-wt550-name
+  description: uplink-mercenary-wt550-desc
+  productEntity: WeaponSubMachineGunWt550
+  icon: { sprite: Objects/Weapons/Guns/SMGs/wt550.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenarySMGs
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWT440
+  name:  uplink-mercenary-wt440-name
+  description: uplink-mercenary-wt440-desc
+  productEntity: WeaponPistolWT440446x30mm
+  icon: { sprite: _HL/Objects/Weapons/Guns/Pistols/wt440.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenarySMGs
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryTypewriter
+  name:  uplink-mercenary-typewriter-name
+  description: uplink-mercenary-typewriter-desc
+  productEntity: WeaponSubMachineGunTypewriter
+  icon: { sprite: _DV/Objects/Weapons/Guns/SMGs/typewriter.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+# Handguns
+- type: listing
+  id: UplinkMercenaryRitland45
+  name:  uplink-mercenary-ritland45-name
+  description: uplink-mercenary-ritland45-desc
+  productEntity: Ritland45Mercenary
+  icon: { sprite: Objects/Weapons/Guns/Revolvers/python.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWard45
+  name:  uplink-mercenary-ward45-name
+  description: uplink-mercenary-ward45-desc
+  productEntity: Ward45Mercenary
+  icon: { sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryViperPMC
+  name:  uplink-mercenary-viperpmc-name
+  description: uplink-mercenary-viperpmc-desc
+  productEntity: WeaponPistolViperPMC
+  icon: { sprite: Objects/Weapons/Guns/Pistols/viper.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryMk58
+  name:  uplink-mercenary-mk58-name
+  description: uplink-mercenary-mk58-desc
+  productEntity: WeaponPistolMk58
+  icon: { sprite: Objects/Weapons/Guns/Pistols/mk58.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryDeckard
+  name:  uplink-mercenary-deckard-name
+  description: uplink-mercenary-deckard-desc
+  productEntity: WeaponRevolverDeckard
+  icon: { sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi, state: base }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryLaserPistol
+  name:  uplink-mercenary-laserpistol-name
+  description: uplink-mercenary-laserpistol-desc
+  productEntity: NFWeaponEnergyPistolLaser
+  icon: { sprite: _NF/Objects/Weapons/Guns/Battery/laser_pistol.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenarySvalinn
+  name:  uplink-mercenary-svalinn-name
+  description: uplink-mercenary-svalinn-desc
+  productEntity: WeaponLaserSvalinn
+  icon: { sprite: Objects/Weapons/Guns/Battery/svalinn.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryAdvancedLaserPistol
+  name:  uplink-mercenary-advancedlaserpistol-name
+  description: uplink-mercenary-advancedlaserpistol-desc
+  productEntity: NFWeaponEnergyPistolLaserAdvanced
+  icon: { sprite: _NF/Objects/Weapons/Guns/Battery/advancedlasergun.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryPollock
+  name:  uplink-mercenary-pollock-name
+  description: uplink-mercenary-pollock-desc
+  productEntity: WeaponPistolPollock
+  icon: { sprite: _DV/Objects/Weapons/Guns/Pistols/pollock.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryMk32
+  name:  uplink-mercenary-mk32-name
+  description: uplink-mercenary-mk32-desc
+  productEntity: WeaponPistolMk32
+  icon: { sprite: Objects/Weapons/Guns/Pistols/mk32.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryN1984
+  name:  uplink-mercenary-n1984-name
+  description: uplink-mercenary-n1984-desc
+  productEntity: WeaponPistolN1984
+  icon: { sprite: Objects/Weapons/Guns/Pistols/N1984.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryFitz
+  name:  uplink-mercenary-fitz-name
+  description: uplink-mercenary-fitz-desc
+  productEntity: WeaponRevolverFitz
+  icon: { sprite: _DV/Objects/Weapons/Guns/Revolvers/fitz.rsi, state: icon }
+  cost:
+    MercCoin: 0
+  categories:
+    - UplinkMercenaryHandguns
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryFaith
+  name:  uplink-mercenary-faith-name
+  description: uplink-mercenary-faith-desc
+  productEntity: WeaponRevolverFaith
+  icon: { sprite: _DV/Objects/Weapons/Guns/Revolvers/faith.rsi, state: icon }
+  cost:
+    MercCoin: 0
   categories:
     - UplinkMercenaryHandguns
   conditions:
