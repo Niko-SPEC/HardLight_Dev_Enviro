@@ -1,6 +1,6 @@
 - type: entity
   id: BorgChassisDog
-  Name: Rhealis
+  name: Rhealis
   parent: [BorgChassisQuad, ShowSecurityIcons]
   components:
   - type: Sprite
